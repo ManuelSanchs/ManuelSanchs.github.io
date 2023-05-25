@@ -1,0 +1,360 @@
+/* This will effect everything from 0 to 576px */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,600;1,400&family=Open+Sans:wght@300;400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.header-nav {
+    background-color: #ffff;
+    padding: .7rem;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    
+  }
+  .nav-main{
+    justify-content: center;
+    padding-right: 15%;
+    text-transform: uppercase;
+  }
+
+  .nav-link{
+    font-family:'Open Sans', sans-serif;
+  }
+  
+  .logopic {
+    height: 2.5rem;
+    margin-right: 3.75rem;
+    margin-right:auto;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: .62rem;
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+  }
+
+  .socials-nav{
+
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  
+  
+  
+  .bar {
+    display: block;
+    width: 1.25rem;
+    height: .12rem;
+    background-color: #333;
+    margin-bottom: .25rem;
+  }
+  
+  .hero{
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+
+  }
+.pasta-promo{
+
+  max-width: 100%;
+}
+
+
+.promotionals{
+    display: flex;
+   
+  
+    justify-content: space-between;
+}
+
+.promo{
+    text-align: center;
+    padding: 3rem;
+    
+}
+
+.promo h3{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#575757;
+    font-size: 1rem;
+}
+
+.promo p{
+      font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#575757;
+    max-width: 18.5rem;
+    font-size: .9rem;
+}
+
+.promo3{
+    display: none;
+}
+.promo-large{
+    background-size: cover;
+    min-height: 11rem;
+}
+
+.text p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    padding-left: 50%;
+    text-align:center;
+
+}
+
+.locations{
+    height: 20rem;
+}
+.map-text{
+    background-color: #d7e4d7;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #575757;
+    font-size: 2.5rem;
+    font-weight: 300;
+   
+    
+    text-align:center;
+}
+.promo-eat{
+    background-size: cover;
+    height: 20rem;
+
+   
+}
+.pasta-text{
+    background-color: #000;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    opacity: 70%;
+    text-align:right;
+    height: inherit;
+    width: 15rem;
+    padding: 1.3rem;
+}
+.from{
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  
+
+}
+.pasta-text p{
+margin: 0;
+padding: 0;
+  
+}
+
+.container{
+    background-color: #000;
+    color: #575757;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.container h1{
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.45rem;
+}
+.new-locations{
+    display:flex;
+    justify-content: space-around;
+}
+
+input[type="submit"]{
+    background-color: #575757; 
+  border: none;
+   color: white;
+   padding: .5rem 1rem;
+   text-align: center;
+   text-decoration: none;
+   font-size: .8rem;
+     text-transform: uppercase;
+     
+ }
+ 
+ 
+ input[type="email"]{
+     width: 60%;
+     padding: .5rem 1rem;
+     margin-left: 3.5rem;
+     
+ }
+ 
+ .examples{
+    display: none;
+ }
+
+ 
+
+
+/* Media Queries */
+@media (min-width: 576px) /* for mobile */{
+
+
+}
+@media (min-width:768px) /* for tablets */{
+
+
+  .nav-menu{
+    display: flex;
+  }
+
+  .hamburger{
+    display: none;
+  }
+    .logopic {
+        height: 5rem;
+        margin-right: 3.75rem;
+        margin-right:auto;
+      }
+
+      .promo3{
+        display: block;
+      }
+
+      .promo3{
+        text-align: center;
+        padding: 3rem;
+        
+    }
+    
+    .promo3 h3{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color:#575757;
+        font-size: 1rem;
+    }
+    
+    .promo3 p{
+          font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color:#575757;
+        max-width: 18.5rem;
+        font-size: .9rem;
+    }
+
+    .socials-nav{display: block;}
+
+   
+
+}
+@media (min-width: 992px) /* for laptops */{
+
+   .container{
+    max-width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse;
+
+    }
+
+    .newsletter{
+
+      width: 50%;
+      padding-top: 2.5rem;
+    }
+
+    .new-locations{
+
+      display: inline;
+      justify-content: center;
+    }
+
+    .new-locations p{
+
+      margin-left: 3rem;
+      padding: 0;
+    }
+
+}
+@media (min-width: 1200px) /* for large devices */{
+
+    .examples{
+        display: block;
+        margin: 0;  
+   padding: 0;
+     
+ }
+ .row{
+     max-width: 100%;
+     display:flex;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .box{
+        margin: 0;
+   width: 25%;
+   height: auto;
+     
+ }
+
+ .pizza-promo, .map{
+    display: none;
+ }
+.promo-eat{
+height: 30rem;
+
+}
+
+.pasta-text{
+font-size:4.3rem;
+width: 20rem;
+}
+
+}
